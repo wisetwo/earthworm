@@ -5,7 +5,7 @@
     :ui="{ width: 'w-full sm:max-w-lg' }"
   >
     <div class="flex h-52 flex-col justify-between p-6 text-gray-900 dark:text-white">
-      <h2 class="mb-8 text-2xl font-bold">游戏暂停</h2>
+      <h2 class="mb-8 text-2xl font-bold">暂停</h2>
       <p class="mb-8 max-w-sm text-base text-gray-700 dark:text-gray-300">
         {{ randomMessage }}
       </p>
@@ -14,7 +14,7 @@
           class="px-6"
           @click="handleClose"
         >
-          继续游戏
+          继续
         </UButton>
       </div>
     </div>
@@ -35,11 +35,7 @@ const { showGamePauseModal, resumeGame, pauseGame } = useGamePause();
 const { shortcutKeys } = useShortcutKeyMode();
 const { focusInput } = useQuestionInput();
 
-const messages = [
-  "别忘了回来继续练习哦，我在等着你呢！",
-  "休息一下没关系，但别让我等太久！",
-  "快点回来吧，你的英语能力正在蓄势待发！",
-];
+const messages = ["别忘了回来继续练习哦", "休息一下", "快点回来吧"];
 
 const randomMessage = ref("");
 watch(

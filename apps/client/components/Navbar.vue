@@ -12,7 +12,7 @@
         <div class="flex flex-1 items-center justify-between">
           <NuxtLink to="/">
             <div class="logo flex items-center">
-              <img
+              <!-- <img
                 width="48"
                 height="48"
                 class="mr-6 hidden overflow-hidden rounded-md md:block"
@@ -21,7 +21,7 @@
               />
               <h1 class="text-wrap text-2xl font-extrabold leading-normal dark:text-white">
                 Earthworm
-              </h1>
+              </h1> -->
             </div>
           </NuxtLink>
 
