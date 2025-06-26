@@ -1,23 +1,47 @@
 上升(基础词)(ri/in)
-rise / increase
+rose / increased
 
 上升(高级词)(su/so)
-surge / soar
+surged / soared
 
 从...上升到...(ri/su)
-rise / surge from ... to ...
+rose / surged from ... to ...
 
 上升到...(ri/su)
-rise / surge to ...
+rised / surged to ...
 
 上升了...(ri/su)
-rise / surge by ...
+rised / surged by ...
 
 升到最高点...(pe/re/re)
-peak at / reach a peak of / reach the highest point at
+peaked at / reached a peak of / reached the highest point at
 
-下降(decr/decl/go)
-decrease / decline / go down
+下降(decr/decl/we)
+decreased / declined / went down
 
 从...下降到...(de)
-decrease from ... to ...
+decreased from ... to ...
+
+下降到...
+fell to ...
+
+下降了...
+decreased by ...
+
+降到最低点
+dropped to its lowest point / reached a minimum of / hit rock bottom at
+
+回到起始水平
+dropped back to their initial level / returning to the level seen at the beginning / reverted to the starting level
+
+保持稳定
+remained stable / remained unchanged / stayed constant / kept steady / leveled off / stabilized
+
+保持稳定伴随小幅波动
+remained stable with minor fluctuations
+
+经历剧烈波动
+experienced significant fluctuations
+
+波动(go)
+have been going up and down
