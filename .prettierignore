@@ -6,4 +6,5 @@ pnpm-lock.yaml
 pnpm-workspace.yaml
 CHANGELOG.md
 packages/xingrong-courses/data
+packages/ielts-courses/data
 packages/db/drizzle
