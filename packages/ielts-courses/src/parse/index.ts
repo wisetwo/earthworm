@@ -40,6 +40,7 @@ function createFileNameMap(): Record<string, string> {
     const key = path.resolve(targetPath, file);
     const nameIndex = index + 1;
     fileNameMap[key] = nameIndex < 10 ? `0${nameIndex}` : `${nameIndex}`;
+    // fileNameMap[key] = path.basename(key).split(".")[0];
   });
 
   return fileNameMap;

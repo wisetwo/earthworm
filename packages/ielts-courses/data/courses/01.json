@@ -1,12 +1,1 @@
-[
-  { "chinese": "上升(基础词)", "english": "rise / increase", "soundmark": "" },
-  { "chinese": "上升(高级词)", "english": "surge / soar", "soundmark": "" },
-  { "chinese": "从...上升到...", "english": "rise / surge from ... to ...", "soundmark": "" },
-  { "chinese": "上升到...", "english": "rise / surge to ...", "soundmark": "" },
-  { "chinese": "上升了...", "english": "rise / surge by ...", "soundmark": "" },
-  {
-    "chinese": "升到最高点...",
-    "english": "peak at / reach a peak of / reach the highest point at",
-    "soundmark": ""
-  }
-]
+[{"chinese":"上升(基础词)","english":"rise / increase","soundmark":""},{"chinese":"上升(高级词)","english":"surge / soar","soundmark":""},{"chinese":"从...上升到...","english":"rise / surge from ... to ...","soundmark":""},{"chinese":"上升到...","english":"rise / surge to ...","soundmark":""},{"chinese":"上升了...","english":"rise / surge by ...","soundmark":""},{"chinese":"升到最高点...","english":"peak at / reach a peak of / reach the highest point at","soundmark":""}]
