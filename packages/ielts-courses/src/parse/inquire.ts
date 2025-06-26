@@ -40,8 +40,8 @@ export async function inquire(folderPath: string): Promise<string[]> {
 
 function listAllFiles(folderPath) {
   let files = fs.readdirSync(folderPath);
-  // 筛选出以 .pdf 结尾的文件
-  files = files.filter((file) => file.endsWith(".pdf"));
+  // 筛选出以 .txt 结尾的文件
+  files = files.filter((file) => file.endsWith(".txt"));
 
   files.sort((a, b) => {
     return parseFloat(a) - parseFloat(b);

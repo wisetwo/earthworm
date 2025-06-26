@@ -7,7 +7,7 @@
     "upload": "tsx src/seed.ts",
     "course:add": "tsx src/addCourse.ts",
     "course:reset": "tsx src/resetCourseStatements.ts",
-    "pdf:parse": "tsx src/parsePDF/index.ts",
+    "text:parse": "tsx src/parse/index.ts",
     "test": "vitest"
   },
   "dependencies": {

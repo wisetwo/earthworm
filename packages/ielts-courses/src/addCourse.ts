@@ -8,7 +8,7 @@ type Statement = typeof statementSchema.$inferInsert;
 
 (async function () {
   const coursePackId = "";
-  const courseOrder = 53;
+  const courseOrder = 100;
   const courseTitle = "";
   const courseFileName = "";
   const video = "";

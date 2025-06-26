@@ -1,5 +1,3 @@
-const STARTSIGN = "中文 英文 K.K.音标";
-const ENDSIGN = "中文 原形 第三人称单数 过去式 ing形式";
 export function parse(text: string) {
   // 0. 先基于 \n 来切分成数组
   const rawTextList = text.split("\n").map((t) => {
@@ -7,11 +5,8 @@ export function parse(text: string) {
   });
 
   // 1. 先获取到开始的点
-  const startIndex = rawTextList.findIndex((t) => t === STARTSIGN);
-  let endIndex = rawTextList.findIndex((t) => t.startsWith(ENDSIGN));
-  if (endIndex === -1) {
-    endIndex = rawTextList.length;
-  }
+  const startIndex = -1;
+  const endIndex = rawTextList.length;
 
   // 2. 过滤掉没有用的数据
   //    1. 空的
@@ -76,7 +71,7 @@ function isChinese(str: string) {
 }
 
 function parseEnglishAndSoundmark(text: string) {
-  const list = text.split(" ");
+  /*const list = text.split(" ");
   const soundmarkdStartIndex = list.findIndex((t) => t.startsWith("/"));
 
   const english = list
@@ -98,11 +93,11 @@ function parseEnglishAndSoundmark(text: string) {
     })
     .toString();
 
-  const soundmark = `/${rawSoundmark.replace(/,/g, "/ /") + "/"}`;
+  const soundmark = `/${rawSoundmark.replace(/,/g, "/ /") + "/"}`;*/
 
   return {
-    english,
-    soundmark,
+    english: text,
+    soundmark: "",
   };
 }
 
