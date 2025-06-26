@@ -1,0 +1,24 @@
+显著/大幅度(adj)(sh/dr/si/co/su/en)
+sharp / dramatic / significant / considerable / substantial / enormous
+
+持续(adj)(conti/const/consi)
+continuously / constantly / consistently
+
+稳步(adj)(gr/st)
+gradual / steady
+
+轻微/小幅(adj)(sl/ma)
+slight / marginal
+
+显著/大幅度(adv)(sh/dr/si/co/su/en)
+sharply / dramatically / significantly / considerably / substantially / enormously
+
+持续(adv)(conti/const/consi)
+continuously / constantly / consistently
+
+稳步(adv)(gr/st)
+gradually / steadily
+
+轻微/小幅(adv)(sl/ma)
+slightly / marginally
+

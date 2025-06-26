@@ -13,9 +13,9 @@ type Statement = typeof statementSchema.$inferInsert;
 const courses = fs.readdirSync(path.resolve(__dirname, "../data/courses"));
 
 (async function () {
-  await db.delete(coursePack);
   await db.delete(statementSchema);
   await db.delete(courseSchema);
+  await db.delete(coursePack);
 
   const [coursePackEntity] = await db
     .insert(coursePack)

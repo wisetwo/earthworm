@@ -38,9 +38,9 @@ function createFileNameMap(): Record<string, string> {
 
   files.forEach((file, index) => {
     const key = path.resolve(targetPath, file);
-    const nameIndex = index + 1;
-    fileNameMap[key] = nameIndex < 10 ? `0${nameIndex}` : `${nameIndex}`;
-    // fileNameMap[key] = path.basename(key).split(".")[0];
+    // const nameIndex = index + 1;
+    // fileNameMap[key] = nameIndex < 10 ? `0${nameIndex}` : `${nameIndex}`;
+    fileNameMap[key] = path.basename(key).split(".")[0];
   });
 
   return fileNameMap;

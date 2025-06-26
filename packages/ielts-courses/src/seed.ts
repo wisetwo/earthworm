@@ -39,7 +39,8 @@ const courses = fs.readdirSync(path.resolve(__dirname, "../data/courses"));
           coursePackId: coursePackEntity.id,
           // Index starts from 0
           order: index + 1,
-          title: convertToChineseNumber(courseName),
+          title: courseName,
+          // title: convertToChineseNumber(courseName),
         })
         .returning({ id: courseSchema.id, order: courseSchema.order, title: courseSchema.title });
 
@@ -85,21 +86,21 @@ const courses = fs.readdirSync(path.resolve(__dirname, "../data/courses"));
   process.exit(0);
 })();
 
-function convertToChineseNumber(numStr: string): string {
-  const chineseNumbers = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
-  let chineseStr = "第";
-  if (parseInt(numStr) >= 10) {
-    const [tens, ones] = numStr.split("");
-    if (tens !== "1") {
-      chineseStr += chineseNumbers[parseInt(tens, 10)];
-    }
-    chineseStr += "十";
-    if (ones !== "0") {
-      chineseStr += chineseNumbers[parseInt(ones, 10)];
-    }
-  } else {
-    chineseStr += chineseNumbers[parseInt(numStr, 10)];
-  }
-  chineseStr += "课";
-  return chineseStr;
-}
+// function convertToChineseNumber(numStr: string): string {
+//   const chineseNumbers = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
+//   let chineseStr = "第";
+//   if (parseInt(numStr) >= 10) {
+//     const [tens, ones] = numStr.split("");
+//     if (tens !== "1") {
+//       chineseStr += chineseNumbers[parseInt(tens, 10)];
+//     }
+//     chineseStr += "十";
+//     if (ones !== "0") {
+//       chineseStr += chineseNumbers[parseInt(ones, 10)];
+//     }
+//   } else {
+//     chineseStr += chineseNumbers[parseInt(numStr, 10)];
+//   }
+//   chineseStr += "课";
+//   return chineseStr;
+// }
